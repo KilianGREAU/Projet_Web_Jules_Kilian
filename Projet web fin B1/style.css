@@ -17,6 +17,17 @@ body {
   margin-left: 70px;
 }
 
+#tete {
+  margin-left: 1650px;
+  margin-bottom: 100px;
+  margin-top: -100px;
+}
+
+#connexion-style {
+  margin-left: 1660px;
+  margin-top: -75px;
+}
+
 #navbar {
   background-color: #ff6e14;
   height: 100px;
