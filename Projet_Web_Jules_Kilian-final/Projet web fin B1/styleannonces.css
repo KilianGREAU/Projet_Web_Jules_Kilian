@@ -1,0 +1,82 @@
+body {
+    background-color: azure;
+  }
+  
+  #title-style {
+    text-align: center;
+    color: #ff6e14;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: -100;
+    text-shadow: black;
+    font-size: 35px;
+  }
+  
+  #logo-style {
+    margin-top: -150px;
+    margin-left: 70px;
+  }
+  
+  #tete {
+    margin-left: 1650px;
+    margin-bottom: 100px;
+    margin-top: -100px;
+  }
+  
+  #connexion-style {
+    margin-left: 1660px;
+    margin-top: -75px;
+  }
+  
+  #navbar {
+    background-color: #ff6e14;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    border-radius: 100px;
+  }
+  
+  .navs {
+    width: 85px;
+    height: 85px;
+    background: #fafafa;
+    box-shadow: 2px 2px 8px rgb(85, 85, 85);
+    font: bold 13px Arial;
+    border-radius: 50%;
+    color: rgb(85, 85, 85);
+    margin: auto;
+  }
+  
+  #search {
+    width: 300px;
+    margin: auto;
+  }
+  
+  #cadre-main {
+    border-color: gray;
+    height: 400px;
+    width: 1300px;
+    border-style: solid;
+    margin: auto;
+    color: #ff6e14;
+  }
+  
+  #geo {
+    margin-left: 800px;
+    margin-top: 50px;
+  }
+  #imgann{
+ 
+    padding-right: 30%;
+  }
+  #anntxt{
+      font: bold 25px  Arial;
+  }
+  #achat{
+    
+   
+  }

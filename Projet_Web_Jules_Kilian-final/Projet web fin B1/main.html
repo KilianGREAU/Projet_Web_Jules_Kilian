@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>LeBonCoin</title>
+</head>
+
+<body>
+  <header>
+    <div id="title-style">
+      <img src="Nom.png" alt="LeBonCoin" height="150px" width="400px">
+    </div>
+    </div>
+    <div id="logo-style">
+      <img src="Logo.PNG" alt="Logo LeBonCoin" height="150px" width="150px" />
+    </div>
+    <div id="tete">
+      <img src="tete.PNG" alt="Icone connexion">
+    </div>
+    <div id="connexion-style">
+      <button submit()>Connexion</button>
+    </div>
+  </header>
+  <div id="navbar">
+    <button class="navs" onclick="openPage('depose',this)">
+      Déposer une annonce
+    </button>
+    <button class="navs" onclick="openPage('offre',this)">Mes offres</button>
+    <button class="navs" onclick="openPage('annonces',this)">
+      Mes annonces
+    </button>
+    <button class="navs" onclick="window.location.href = 'annonces.html';">Annonces</button>
+    <div id="search">
+      <input type="search" id="site-search" name="q" aria-label="search through site content" />
+      <button>Rechercher</button>
+    </div>
+  </div>
+  <br /><br /><br />
+  <div id="cadre-main">
+    <div id="geo">
+      <input type="radio" id="offre" name="offre" value="offre">
+      <label for="offre">Offre</label>
+      <br><br><br><br>
+      <select>
+        <option value="1">Toute la France</option>
+        <option value="2">Auvergne-Rhône-Alpes</option>
+        <option value="3">Bourgogne-Franche-Comté</option>
+        <option value="4">Bretagne</option>
+        <option value="5">Centre-Val de Loire</option>
+        <option value="6">Corse</option>
+        <option value="7">Grand Est</option>
+        <option value="8">Hauts-de-France</option>
+        <option value="9">Île-de-France</option>
+        <option value="10">Normandie</option>
+        <option value="11">Nouvelle-Aquitaine</option>
+        <option value="12">Occitanie</option>
+        <option value="13">Pays de la Loire</option>
+        <option value="14">Provence-Alpes-Côte d'Azur</option>
+      </select>
+      <br><br><br><br>
+      <select>
+        <option value="1">Prix</option>
+        <option value="2">0-50</option>
+        <option value="3">50-100</option>
+        <option value="4">100-200</option>
+        <option value="5">200+</option>
+      </select>
+    </div>
+    <div id="categories">
+      <input type="radio" id="demande" name="demande" value="demande">
+      <label for="demande">Demande</label>
+      <br><br><br><br>
+      <input placeholder="Que cherchez vous ?" />
+      </select><br><br><br><br>
+      <select>
+        <option value="1">Catégories</option>
+        <option value="2">Animaux</option>
+        <option value="3">Consoles et jeux-vidéos</option>
+        <option value="4">Electronique</option>
+        <option value="5">Jardon</option>
+        <option value="6">Mobilier</option>
+        <option value="7">Véhicules motorisés</option>
+        <option value="8">Vêtements</option>
+      </select>
+    </div>
+    <div id="search-style">
+      <button submit()>Rechercher</button>
+    </div>
+  </div>
+  <div id="drop">
+    <button submit()>Déposer une annonce</button>
+  </div>
+</body>
+
+</html>
